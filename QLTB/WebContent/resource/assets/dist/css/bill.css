@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+.filter{
+	padding: 13px;
+    border-style: groove;
+}
+
+ 
+@media screen and (max-width: 768px) {
+	.filter{
+	display: flex !important;
+    flex-direction: column !important;
+	}
+.filter >div{
+	width: 100%;
+	padding-top: 24px;
+}
+.filter >div div:first-child{
+	padding-bottom: 12px;
+}
+.filter div button{
+	height: 100% !important;
+}
+.row{
+
+	margin: 0 !important;
+}
+.filter-content{
+	width: 100vw;
+    padding: 4px;
+}
+}

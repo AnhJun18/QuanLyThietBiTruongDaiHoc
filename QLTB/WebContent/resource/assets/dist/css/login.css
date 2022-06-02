@@ -1,0 +1,282 @@
+body {
+
+	overflow-x: hidden;
+	height: 100%;
+	background-repeat: no-repeat;
+	margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+.row>* {
+	flex-shrink: 1;
+}
+
+.card0 {
+	box-shadow: 0px 4px 8px 0px #757575;
+	border-radius: 0px
+}
+.border-line {
+    border-right: 1px solid #5139ab !important;
+}
+
+.card2 {
+	margin: 0px 16px 0 0;
+}
+
+.logo-sign-in img {
+	border-radius: 50%;
+	background-color: aquamarine;
+	border-style: inset;
+}
+
+.logo {
+	width: 76px;
+	height: 76px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.logo-content {
+	font-family: cursive;
+}
+
+.logo-text {
+	width:auto;
+	margin-left: 1.5rem;
+	margin-top: 1rem;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.logo-content h5 {
+	margin-bottom: 0px
+}
+
+.image {
+	width: 94%;
+	padding-left: 19px;
+}
+
+.border-line {
+	border-right: 1px solid #EEEEEE
+}
+
+.logo-sign-in {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.facebook {
+	background-color: #3b5998;
+	color: #fff;
+	font-size: 18px;
+	padding-top: 5px;
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	cursor: pointer
+}
+
+.twitter {
+	background-color: #1DA1F2;
+	color: #fff;
+	font-size: 18px;
+	padding-top: 5px;
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	cursor: pointer
+}
+
+.linkedin {
+	background-color: #2867B2;
+	color: #fff;
+	font-size: 18px;
+	padding-top: 5px;
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	cursor: pointer
+}
+
+.line {
+	height: 1px;
+	width: 35%;
+	background-color: #E0E0E0;
+	margin-top: 10px
+}
+
+.or {
+	width: 24%;
+	padding-left:3%;
+	padding-right:3%;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+.text-sm {
+	font-size: 14px !important;
+}
+
+.social-contact a {
+	color: lightskyblue;
+}
+
+::placeholder {
+	color: #BDBDBD;
+	opacity: 1;
+	font-weight: 300
+}
+
+:-ms-input-placeholder {
+	color: #BDBDBD;
+	font-weight: 300
+}
+
+::-ms-input-placeholder {
+	color: #BDBDBD;
+	font-weight: 300
+}
+
+input, textarea {
+	padding: 10px 12px 10px 12px;
+	border: 1px solid lightgrey;
+	border-radius: 2px;
+	margin-bottom: 5px;
+	margin-top: 2px;
+	width: 100%;
+	box-sizing: border-box;
+	color: #2C3E50;
+	font-size: 14px;
+	letter-spacing: 1px
+}
+
+input:focus, textarea:focus {
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	border: 1px solid #304FFE;
+	outline-width: 0
+}
+
+button:focus {
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	outline-width: 0
+}
+
+a {
+	color: inherit;
+	cursor: pointer
+}
+
+.btn-blue {
+	background-color: #1A237E;
+	width: 150px;
+	color: #fff;
+	border-radius: 2px
+}
+
+.btn-blue:hover {
+	background-color: #000;
+	cursor: pointer
+}
+
+.bg-blue {
+	color: #fff;
+	background-color: #1A237E
+}
+
+.errors {
+	color: #ff0036;
+	font-style: italic;
+}
+
+.buttons {
+	width: 100%;
+	margin: 10%;
+	text-align: center;
+}
+
+.btn-hover {
+	width: 100%;
+	min-width: 220px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	cursor: pointer;
+	margin: 0px 20%;
+	height: 55px;
+	text-align: center;
+	border: none;
+	background-size: 300% 100%;
+	border-radius: 50px;
+	moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+	background-position: 100% 0;
+	moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+	outline: none;
+}
+
+.btn-hover.color-1 {
+	background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+	box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+@media screen and (max-width: 991px) {
+	.row .bg-img {
+		margin-top: 12px !important;
+		margin-bottom: 0px !important;
+	}
+	.row .logo-content {
+		display: flex;
+		justify-content: center;
+		margin-left: 0px !important;
+		align-items: center;
+		flex-direction: column;
+	}
+	.logo-text {
+		margin-top: 10px;
+		margin-left: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.card1 {
+		padding-bottom: 0
+	}
+	.image {
+		width: 84%;
+		padding-left: 0;
+	}
+	.border-line {
+		border-right: none !important;
+	}
+	.card2 {
+		border-top: 1px solid #EEEEEE !important;
+		margin: 0px 15px
+	}
+	.row .img-bk {
+		margin-bottom: 0 !important;
+	}
+}

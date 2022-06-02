@@ -1,0 +1,128 @@
+
+.card-body{
+	color:var(--text-color);
+	text-decoration: none; 
+}
+.card-body>a{
+	color:#616a44 !important;
+}
+
+
+.card-body a{
+	color:#7698cc ;
+}
+
+.card-body.emptys {
+	border-style: inherit;
+	border-width: 3px;
+	border-color:green;
+	background: var(--emptys-bgcolor);
+	box-shadow: 5px 5px 6px #6bb478;
+}
+.card-title{
+	    width: fit-content;
+	    box-shadow: 2px 2px 4px #000000;
+
+}
+.card-body div>p{
+	margin-bottom: 0 !important;
+}
+.card-body.buzy {
+	border-style: inherit;
+	border-width: 3px;
+	border-color: red;
+	background: var(--buzy-bgcolor);
+	box-shadow: 4px 5px 8px #952c4e;
+}
+
+.card-body.maintenance {
+	border-style: inherit;
+	border-width: 3px;
+	border-color: red;
+	background: var(--mainetenance-bgcolor);
+}
+.btnLapPhieu {
+	background-image: var(--btn-bgcolor);;
+    transition: .5s;
+    background-size: 200% auto;
+    color: #fff;
+    box-shadow: 4px 2px 6px var( --shadow-color);
+    
+    border-radius: 10px;
+   
+}
+.disable-link{
+	pointer-events: none;
+    background: gray;
+    box-shadow:none;
+}
+.card-body{
+	min-height: 300px;
+	
+	}
+	
+.room.card{
+		background: none;
+	   width: 30%;
+	   max-width: 340px;
+	}
+.status-bill{
+	 min-width: 100px;
+	 
+}
+
+.status-bill button{
+	min-width: 48px;
+}
+.buttons_added {
+    opacity:1;
+    display:inline-block;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    white-space:nowrap;
+    vertical-align:top;
+}
+.is-form {
+    overflow:hidden;
+    position:relative;
+    background-color:#f9f9f9;
+    height:2.2rem;
+    width:1.9rem;
+    padding:0;
+    text-shadow:1px 1px 1px #fff;
+    border:1px solid #ddd;
+}
+.is-form:focus,.input-text:focus {
+    outline:none;
+}
+.is-form.minus {
+    border-radius:4px 0 0 4px;
+}
+.is-form.plus {
+    border-radius:0 4px 4px 0;
+}
+.input-qty {
+    background-color:#fff;
+    height:2.2rem;
+    text-align:center;
+    font-size:1rem;
+    display:inline-block;
+    vertical-align:top;
+    margin:0;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:0;
+    border-right:0;
+    padding:0;
+}
+.input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+    margin:0;
+}
+
+@media screen and (max-width: 991px) {
+	.room.card{
+	   width: 40%!important;
+	   min-width: 240px;
+	}
+}
